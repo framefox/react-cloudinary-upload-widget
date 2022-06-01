@@ -57,7 +57,18 @@ const UploadWidget = ({
       multiple,
       widgetStyles,
       destroy,
-      autoClose
+      autoClose,
+      thumbnails,
+      croppingAspectRatio,
+      croppingShowDimensions,
+      clientAllowedFormats,
+      maxFileSize,
+      maxImageWidth,
+      maxImageHeight,
+      minImageWidth,
+      minImageHeight,
+      maxVideoFileSize,
+      maxRawFileSize
     )
 
   return (
